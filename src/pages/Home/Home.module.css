@@ -1,0 +1,26 @@
+/** @format */
+
+.blog_container {
+  font-size: 1.2rem;
+}
+
+.blog_container:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.blog_container h1 {
+  text-align: center;
+}
+
+.blog_container h3 {
+  margin-bottom: 1rem;
+}
+
+.blog_container p {
+  padding: 2rem;
+  text-align: justify;
+  border: 2px dotted #ffffff;
+}
+.blog_container small {
+  font-size: 5px;
+}
